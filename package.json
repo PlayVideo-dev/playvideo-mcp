@@ -1,0 +1,47 @@
+{
+  "name": "@playvideo/playvideo-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for PlayVideo API - enables AI assistants to manage videos",
+  "main": "dist/index.js",
+  "bin": {
+    "playvideo-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "playvideo",
+    "video",
+    "video-api",
+    "ai",
+    "claude",
+    "llm"
+  ],
+  "author": "PlayVideo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PlayVideo-dev/playvideo-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PlayVideo-dev/playvideo-mcp/issues"
+  },
+  "homepage": "https://github.com/PlayVideo-dev/playvideo-mcp#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
