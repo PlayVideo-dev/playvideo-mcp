@@ -1,5 +1,9 @@
 # PlayVideo MCP Server
 
+[![npm version](https://img.shields.io/npm/v/@playvideo/playvideo-mcp.svg)](https://www.npmjs.com/package/@playvideo/playvideo-mcp)
+[![npm downloads](https://img.shields.io/npm/dm/@playvideo/playvideo-mcp.svg)](https://www.npmjs.com/package/@playvideo/playvideo-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Model Context Protocol (MCP) server for PlayVideo API. Enables AI assistants like Claude to manage your videos directly.
 
 ## What is MCP?
