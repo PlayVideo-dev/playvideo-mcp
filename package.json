@@ -4,7 +4,7 @@
   "description": "MCP server for PlayVideo API - enables AI assistants to manage videos",
   "main": "dist/index.js",
   "bin": {
-    "playvideo-mcp": "./dist/index.js"
+    "playvideo-mcp": "dist/index.js"
   },
   "files": [
     "dist"
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PlayVideo-dev/playvideo-mcp.git"
+    "url": "git+https://github.com/PlayVideo-dev/playvideo-mcp.git"
   },
   "bugs": {
     "url": "https://github.com/PlayVideo-dev/playvideo-mcp/issues"
